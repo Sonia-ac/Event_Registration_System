@@ -1,0 +1,37 @@
+{
+  "name": "codealpha-event_registration_system",
+  "version": "1.0.0",
+  "description": "REST API for an event registration system",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.12.1",
+    "mysql2": "^3.24.4"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true,
+    "nodemon@1.14.10": true
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.10"
+  }
+}
